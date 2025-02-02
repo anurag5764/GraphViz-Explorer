@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__controls-mobile {
+  @apply touch-none;
+}
+
+/* Improve touch targets for mobile */
+.react-flow__controls button {
+  @apply w-8 h-8;
+  @apply touch-none;
+}
+
+/* Prevent text selection during touch interactions */
+.react-flow__pane {
+  @apply touch-pan-x touch-pan-y;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: pan-x pan-y pinch-zoom;
+}
+
+/* Improve mobile touch handling */
+.react-flow__renderer {
+  touch-action: none;
+}
+
+/* Better touch targets for nodes */
+.react-flow__node {
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
