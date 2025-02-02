@@ -2,8 +2,6 @@
 
 An interactive graph visualization tool built with React, Redux, and React Flow. This application allows users to create, customize, and manipulate graph nodes with various features including undo/redo functionality, node customization, and mobile support.
 
-![Graph Visualization Explorer](https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?auto=format&fit=crop&q=80&w=2000&h=600)
-
 ## Features
 
 - **Interactive Graph Visualization**: Drag and drop nodes, create connections, and manipulate the graph layout
@@ -155,9 +153,6 @@ src/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
